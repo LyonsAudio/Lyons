@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyons Audio | Modern Celtic Voice Over</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --forest-green: #114538;
+            --mist-gray: #f8f9fa;
+            --slate-border: #d1d1d1; 
+            --gold-accent: #b7946a;
+            --dark-navy: #0e2431;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--mist-gray);
+            /* Subtle texture overlay */
+            background-image: url('https://www.transparenttextures.com/patterns/celtic-knot.png');
+            background-attachment: fixed;
+        }
+
+        .page-wrapper {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            /* The light grey knotwork border */
+            border: 15px solid var(--slate-border);
+            border-image: url('https://www.transparenttextures.com/patterns/celtic-knot.png') 30 round;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--forest-green);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--gold-accent);
+        }
+
+        h1, h2, h3 { font-family: 'Lora', serif; }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            padding: 60px 10%;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img {
+            width: 320px;
+            height: auto;
+            border-radius: 10px;
+            border: 1px solid var(--slate-border);
+        }
+
+        .demo-section {
+            background: var(--dark-navy);
+            color: white;
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .demo-card {
+            background: rgba(255,255,255,0.05);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--gold-accent);
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--gold-accent);
+            color: white;
+            padding: 12px 28px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85em;
+        }
+
+        .ai-disclaimer {
+            padding: 40px 10%;
+            background: #f1f1f1;
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            font-style: italic;
+        }
+
+        footer {
+            background: var(--forest-green);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer a { color: var(--gold-accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+    <header>
+        <h1 style="margin:0; font-size: 3em; letter-spacing: 3px;">LYONS AUDIO</h1>
+        <p>Modern Voice • Ancient Soul</p>
+    </header>
+
+    <section class="hero">
+        <img src="lyons-face.jpg" alt="David Lyons" class="hero-img">
+        <div class="hero-text">
+            <h2>Professional Voice Artistry</h2>
+            <p>David Lyons offers a rich, baritone voice with a comforting and naturally therapeutic quality. Drawing from theater and radio, he delivers scripts with genuine emotional depth.</p>
+            <p><strong>Special Offer:</strong> I provide a complimentary 15-second read of your material to ensure a perfect match for your vision.</p>
+            <p><em>Rates available upon request.</em></p>
+            <a href="mailto:david@lyonsaudio.com" class="btn">Inquire Now</a>
+        </div>
+    </section>
+
+    <section class="demo-section">
+        <h2>Voice Demos</h2>
+        <div class="demo-grid">
+            <div class="demo-card">
+                <h3>Commercial</h3>
+                <a href="commercial.mp3" download class="btn">Download MP3</a>
+            </div>
+            <div class="demo-card">
+                <h3>Narration</h3>
+                <a href="narration.mp3" download class="btn">Download MP3</a>
+            </div>
+            <div class="demo-card">
+                <h3>Meditation</h3>
+                <a href="meditation.mp3" download class="btn">Download MP3</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-disclaimer">
+        <p><strong>AI Usage Policy:</strong> Lyons Audio does not authorize the use of David Lyons' voice for AI training or cloning. All recordings are human-generated.</p>
+    </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:david@lyonsaudio.com">david@lyonsaudio.com</a></p>
+        <p style="font-size: 0.8em; opacity: 0.7; margin-top: 20px;">&copy; 2026 Lyons Audio. All Rights Reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
